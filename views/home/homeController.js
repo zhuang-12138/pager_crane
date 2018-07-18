@@ -1,3 +1,4 @@
 angular.module('app')
 	.controller('homeController', ['$scope', function ($scope) {
-		console.log('test');}])
+		console.log('注册页');
+	}])

@@ -7,5 +7,12 @@ angular.module('app')
 			'./views/home/homeController.js',
 			'./views/home/home.css'
 		]
+	},
+	{
+		name: 'login',
+		files: [
+			'./views/login/loginController.js',
+			'./views/login/login.css'
+		]
 	}
 ])

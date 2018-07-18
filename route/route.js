@@ -22,4 +22,21 @@ angular.module('app')
 				}
 			})
 
+			.state('login', {
+				// home是路由的第一个页面  所以是根目录
+				url: '/login',
+				// home页面的路径
+				templateUrl: './views/login/login.html',
+				// home的控制器名称
+				controller: 'loginController',
+
+				// 
+				resolve: {
+					des: ['$ocLazyLoad', function ($ocLazyLoad) {
+						// 懒加载的服务名称
+						return $ocLazyLoad.load('login');
+					}]
+				}
+			})
+
 	}])
