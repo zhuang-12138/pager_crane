@@ -1,0 +1,85 @@
+/*预设样式*/
+.auto-img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.fff{
+	color: #fff!important;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.trans{
+	background-color: transparent!important;
+}
+/*预设样式*/
+.p-top{
+	padding-top: 1px!important;
+}
+.home{
+	background: url('../../assets/images/dl/dl_bg@2x.png') no-repeat center center;
+	background-size:100% 100%;
+}
+.bar_top{
+	top: 20px!important;
+	background: transparent!important;
+}
+.logo{
+	padding-top: 65px;
+	width: 90px;
+	height: auto;
+	margin:0 auto;
+}
+.logotxt{
+	padding-top: 10px;
+	display: block;
+	font-size: 26px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+.lodin_icon{
+	width: 35px;
+	height: auto;
+}
+.lodin_fontsize{
+	color: #fff !important;
+	font-size: 20px !important;
+	padding-left: 10px !important;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	font-size:16px;
+　　}
+.lable_pd{
+	margin:0 10px;
+	padding:15px 0 10px 16px;
+	border:1px solid transparent;
+	border-bottom:1px solid #fff;
+}
+.getpsd{
+	padding:8px 0 4px 14px;
+	color: #aaa;
+	border-left: 1px solid #fff;
+}
+.phoneicon{
+	width: 55px!important;
+}
+.btns{
+	margin: 25px 10px;
+	width: 42%;
+	text-align: center;
+	font-weight: bold;
+	color: #0c385b!important;
+	letter-spacing: 2px;
+	font-size: 16px!important;
+}
+.xieyi{
+	color: #aaa;
+	text-align: center;
+	clear: both;
+	font-size: 12px;
+	padding-top: 10px;
+}
