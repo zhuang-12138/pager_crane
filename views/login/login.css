@@ -26,7 +26,7 @@
 .p-top{
 	padding-top: 1px!important;
 }
-.home{
+.login{
 	background: url('../../assets/images/dl/dl_bg@2x.png') no-repeat center center;
 	background-size:100% 100%;
 }
@@ -70,9 +70,6 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 	color: #aaa;
 	border-left: 1px solid #fff;
 }
-.phoneicon{
-	width: 55px!important;
-}
 .btns{
 	margin:0px 10px 10px 10px;
 	width: 42%;
@@ -93,4 +90,19 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 	color:#aaa ;
 	padding:17px 10px;
 	font-size: 16px;
+}
+.dsf_box{
+	margin-top: 70px;
+}
+.dsf_login{
+	display: block;
+	text-align: center;
+	font-size: 17px;
+	color: #aaa;
+	letter-spacing: 1px;
+}
+.dsf_icons{
+	display: inline-block;
+	width: 45px;
+	margin:20px 15px 5px;
 }

@@ -1,6 +1,6 @@
-<div class="home">
+<div class="login">
 	<!-- 中间内容 -->
-	<ion-content class="home">
+	<ion-content class="login">
 		<!-- 头部 s -->
 		<ion-header-bar class="bar_top bar bar-header">
 				<button menu-toggle="left" class="button button-icon icon ion-ios-arrow-left button-clear fff"></button>
@@ -26,9 +26,16 @@
 			</label>
 			<div class="clearfix wjpwd"><span class="fr">忘记密码？</span></div>
 			<button class="button button-light btns fl">登录</button>
-			<button class="button button-light btns fr">注册</button>
+			<button class="button button-light btns fr" ng-click="goPage('register')">注册</button>
 		</div>
-		<div></div>
+		<div class="dsf_box">
+			<span class="dsf_login">第三方登录方式</span>
+			<div class="dsf_login">
+				<span class="dsf_icons"><img class="auto-img" src="./assets/icons/Iocn_dl_4@2x.png"></span>
+				<span class="dsf_icons"><img class="auto-img" src="./assets/icons/Iocn_dl_5@2x.png"></span>
+				<span class="dsf_icons"><img class="auto-img" src="./assets/icons/Iocn_dl_6@2x.png"></span>
+			</div>
+		</div>
 			<div class="xieyi">说明：注册/登录代表您已经同意 《千纸鹤协议》</div>
 	</ion-content>
 </div>

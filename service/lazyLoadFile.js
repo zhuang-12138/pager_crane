@@ -2,10 +2,10 @@ angular.module('app')
 // 服务里  只有constant能够被config使用
 	.constant('lazyLoadFile',[
 	{
-		name: 'home',
+		name: 'register',
 		files: [
-			'./views/home/homeController.js',
-			'./views/home/home.css'
+			'./views/register/registerController.js',
+			'./views/register/register.css'
 		]
 	},
 	{
@@ -13,6 +13,13 @@ angular.module('app')
 		files: [
 			'./views/login/loginController.js',
 			'./views/login/login.css'
+		]
+	},
+	{
+		name: 'home',
+		files: [
+			'./views/home/homeController.js',
+			'./views/home/home.css'
 		]
 	}
 ])

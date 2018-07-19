@@ -13,73 +13,89 @@
 .fr{
 	float: right;
 }
+.clearflow{
+	overflow: hidden;
+}
+.clearfix{
+	clear: both;
+}
 .trans{
 	background-color: transparent!important;
 }
+
 /*预设样式*/
-.p-top{
-	padding-top: 1px!important;
-}
+
 .home{
-	background: url('../../assets/images/dl/dl_bg@2x.png') no-repeat center center;
-	background-size:100% 100%;
 }
-.bar_top{
-	top: 20px!important;
-	background: transparent!important;
+.system1{
+	top: 20px;
+	background-color: #0f2030;
 }
-.logo{
-	padding-top: 65px;
-	width: 90px;
-	height: auto;
-	margin:0 auto;
+.system{
+	background-color: #011120!important;
 }
-.logotxt{
-	padding-top: 10px;
-	display: block;
-	font-size: 26px;
-	text-align: center;
-	letter-spacing: 4px;
+.titleipt{
+	width: 180px;
+	height: 30px;
+	background-color: #0f2030;
+	outline:none;
+	border:1px solid #fff;
+	padding: 6px;
+	color: #fff;
+	border-radius: 5px;
 }
-.lodin_icon{
-	width: 35px;
-	height: auto;
-}
-.lodin_fontsize{
-	color: #fff !important;
-	font-size: 20px !important;
-	padding-left: 10px !important;
-}
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-	font-size:16px;
+.titleipt::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: #fff!important;
 　　}
-.lable_pd{
+.home_banner{
+	width: 100%;
+	margin-top: 64px;
+}
+.home_bgc{
+	margin: 10px 0;
+	background-color: #0f2030;
+}
+.home_nav{
+	display: inline-block;
+	width: calc(24% - 20px);
 	margin:0 10px;
-	padding:15px 0 10px 16px;
-	border:1px solid transparent;
-	border-bottom:1px solid #fff;
-}
-.getpsd{
-	padding:8px 0 4px 14px;
-	color: #aaa;
-	border-left: 1px solid #fff;
-}
-.phoneicon{
-	width: 55px!important;
-}
-.btns{
-	margin: 25px 10px;
-	width: 42%;
-	text-align: center;
-	font-weight: bold;
-	color: #0c385b!important;
-	letter-spacing: 2px;
-	font-size: 16px!important;
-}
-.xieyi{
-	color: #aaa;
-	text-align: center;
-	clear: both;
+	color: #fff;
 	font-size: 12px;
-	padding-top: 10px;
+	text-align: center;
+}
+.home_nav>img{
+	width: 30px!important;
+	margin: 0 auto;
+	padding:8px 0 2px;
+}
+.home_nav:first-child{
+	background-color: #fe0000;
+}
+.footer_color{
+	background-color: #0f2030;
+	color: #84878b;
+}
+
+.tabs{
+	background-color: #0f2030!important;
+}
+
+/*tabs icons*/
+.icon-home{
+	background: url(../../assets/icons/b_home_sy_icon_5@2x.png) no-repeat center center;
+	background-size: 38% 84%;
+}
+
+.icon-home-outline{
+	background: url(../../assets/icons/home_sy_icon_5@2x.png) no-repeat center center;
+	background-size: 40% 84%;
+}
+
+.icon-classify{
+	background: url(../../assets/icons/home_sy_icon_6_pre@2x.png) no-repeat center center;
+	background-size: 40% 84%;
+}
+.icon-classify-outline{
+	background: url(../../assets/icons/home_fl_icon_6@2x.png) no-repeat center center;
+	background-size: 40% 84%;
 }

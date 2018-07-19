@@ -1,0 +1,41 @@
+<div class="register">
+	<!-- 中间内容 -->
+	<ion-content class="register">
+		<!-- 头部 s -->
+		<ion-header-bar class="bar_top bar bar-header">
+				<button menu-toggle="left" class="button button-icon icon ion-ios-arrow-left button-clear fff" ng-click="goPage('login')"></button>
+			  <div class="h1 title"></div>
+		</ion-header-bar>
+		<!-- 头部e -->
+
+		<!-- logo s -->
+		<div class="logo">
+			<img class="auto-img" src="./assets/icons/Iocn_dl_1@2x.png">
+			<span class="logotxt fff">千纸鹤</span>
+		</div>
+
+		<div class="list p-top">
+			<label class="item item-input trans lable_pd">
+				<span class="input_lable lodin_icon"><img class="auto-img" src="./assets/icons/Iocn_dl_2@2x.png"></span>
+				<input class="lodin_fontsize" type="text" name="" placeholder="会员名">
+			</label>
+			<label class="item item-input trans lable_pd">
+				<span class="input_lable lodin_icon"><img class="auto-img" src="./assets/icons/Iocn_dl_3@2x.png"></span>
+				<input class="lodin_fontsize" type="password" name="" placeholder="输入密码">
+			</label>
+			<div class="item item-input trans lable_pd">
+				<span class="input_lable phoneicons"><img class="auto-img" src="./assets/icons/Iocn_zc_3@2x.png"></span>
+				<input class="lodin_fontsize " type="text" name="" placeholder="请输入手机号">
+				<span class="right">获取验证码</span>
+			</div>
+			<label class="item item-input trans lable_pd">
+				<span class="input_lable lodin_icon"><img class="auto-img" src="./assets/icons/Iocn_zcl_1@2x.png"></span>
+				<input class="lodin_fontsize" type="text" name="" placeholder="请输入验证码">
+			</label>
+			
+			<button class="button button-light btn fl">注册</button>
+			<button class="button button-light btn fr" ng-click="goPage('login')">登录</button>
+		</div>
+			<div class="xieyi">说明：注册/登录代表您已经同意 《千纸鹤协议》</div>
+	</ion-content>
+</div>

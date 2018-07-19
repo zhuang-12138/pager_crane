@@ -5,19 +5,19 @@ angular.module('app')
 
 		// 配置状态
 		$stateProvider
-			.state('home', {
+			.state('register', {
 				// home是路由的第一个页面  所以是根目录
-				url: '/',
+				url: '/register',
 				// home页面的路径
-				templateUrl: './views/home/home.html',
+				templateUrl: './views/register/register.html',
 				// home的控制器名称
-				controller: 'homeController',
+				controller: 'registerController',
 
 				// 
 				resolve: {
 					des: ['$ocLazyLoad', function ($ocLazyLoad) {
 						// 懒加载的服务名称
-						return $ocLazyLoad.load('home');
+						return $ocLazyLoad.load('register');
 					}]
 				}
 			})
@@ -35,6 +35,23 @@ angular.module('app')
 					des: ['$ocLazyLoad', function ($ocLazyLoad) {
 						// 懒加载的服务名称
 						return $ocLazyLoad.load('login');
+					}]
+				}
+			})
+
+			.state('home', {
+				// home是路由的第一个页面  所以是根目录
+				url: '/',
+				// home页面的路径
+				templateUrl: './views/home/home.html',
+				// home的控制器名称
+				controller: 'homeController',
+
+				// 
+				resolve: {
+					des: ['$ocLazyLoad', function ($ocLazyLoad) {
+						// 懒加载的服务名称
+						return $ocLazyLoad.load('home');
 					}]
 				}
 			})
