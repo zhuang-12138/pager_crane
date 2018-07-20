@@ -32,6 +32,7 @@
 	background-color: #0f2030;
 }
 .system{
+	height: 20px;
 	background-color: #011120!important;
 }
 .titleipt{
@@ -82,20 +83,98 @@
 
 /*tabs icons*/
 .icon-home{
+	width: 30px;
+	height: 32px!important;
+	display: inline-block;
 	background: url(../../assets/icons/b_home_sy_icon_5@2x.png) no-repeat center center;
-	background-size: 38% 84%;
+	background-size: 88% 85%;
 }
 
 .icon-home-outline{
+	width: 30px;
+	height: 32px!important;
+	display: inline-block;
 	background: url(../../assets/icons/home_sy_icon_5@2x.png) no-repeat center center;
-	background-size: 40% 84%;
+	background-size: 88% 85%;
 }
 
 .icon-classify{
+	width: 30px;
+	height: 32px!important;
+	display: inline-block;
 	background: url(../../assets/icons/home_sy_icon_6_pre@2x.png) no-repeat center center;
-	background-size: 40% 84%;
+	background-size: 88% 85%;
 }
 .icon-classify-outline{
+	width:30px;
+	height: 32px!important;
+	display: inline-block;
 	background: url(../../assets/icons/home_fl_icon_6@2x.png) no-repeat center center;
-	background-size: 40% 84%;
+	background-size: 88% 85%;
 }
+
+.icon-find{
+	width:30px;
+	height: 32px!important;
+	display: inline-block;
+	background: url(../../assets/icons/home_sy_icon_7_pre@2x.png) no-repeat center center;
+	background-size: 88% 85%;
+}
+.icon-find-outline{
+	width:30px;
+	height: 32px!important;
+	display: inline-block;
+	background: url(../../assets/icons/home_fx_icon_7@2x.png) no-repeat center center;
+	background-size: 88% 85%;
+}
+.icon-cart{
+	width:30px;
+	height: 32px!important;
+	display: inline-block;
+	background: url(../../assets/icons/home_sy_icon_8_pre@2x.png) no-repeat center center;
+	background-size: 88% 85%;
+}
+.icon-cart-outline{
+	width:30px;
+	height: 32px!important;
+	display: inline-block;
+	background: url(../../assets/icons/home_gec_icon_8@2x.png) no-repeat center center;
+	background-size: 88% 85%;
+}
+.icon-my{
+	width:30px;
+	height: 32px!important;
+	display: inline-block;
+	background: url(../../assets/icons/home_sy_icon_9_pre@2x.png) no-repeat center center;
+	background-size: 88% 85%;
+}
+.icon-my-outline{
+	width:30px;
+	height: 32px!important;
+	display: inline-block;
+	background: url(../../assets/icons/home_wd_icon_9@2x.png) no-repeat center center;
+	background-size: 88% 85%;
+}
+/*tabs icons end*/
+
+
+/*发现 s*/
+.fx_nav{
+	padding: 15px;
+	margin-top: 64px;
+	height: 30px;
+}
+.fx_nav>span{
+	margin: 0 15px;
+	padding: 0px 0 5px;
+	width:calc(25% - 30px);
+	color: #515151;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+}
+.fx_nav>span:first-child{
+	color: #e79205;
+	border-bottom: 3px solid #e79205;
+}
+/*发现 e*/

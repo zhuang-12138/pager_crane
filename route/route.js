@@ -3,8 +3,10 @@ angular.module('app')
 		//重定向：路径没找到时跳至
 		$urlRouterProvider.otherwise('/');
 
-		// 配置状态
+		// 配置状态 配置路由信息
 		$stateProvider
+
+		// 状态机  状态名
 			.state('register', {
 				// home是路由的第一个页面  所以是根目录
 				url: '/register',
