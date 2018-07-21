@@ -25,20 +25,63 @@
 
 /*预设样式*/
 
-.sts{
-	padding-top:20px;
+
+.home-one .system1{
+	top: 0px;
+	background-color: #0f2030;
 }
-.system{
+.home-one .system{
 	height: 20px;
 	background-color: #011120!important;
 }
-.tabs{
+.home-one .titleipt{
+	width: 180px;
+	height: 30px;
+	background-color: #0f2030;
+	outline:none;
+	border:1px solid #fff;
+	padding: 6px;
+	color: #fff;
+	border-radius: 5px;
+}
+.home-one .titleipt::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: #fff!important;
+　　}
+.home-one .home_banner{
+	width: 100%;
+	padding-top: 44px;
+}
+.home-one .home_bgc{
+	margin: 10px 0;
+	background-color: #0f2030;
+}
+.home-one .home_nav{
+	display: inline-block;
+	width: calc(24% - 20px);
+	margin:0 10px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+.home-one .home_nav>img{
+	width: 30px!important;
+	margin: 0 auto;
+	padding:8px 0 2px;
+}
+.home-one .home_nav:first-child{
+	background-color: #fe0000;
+}
+.home-one .footer_color{
+	background-color: #0f2030;
+	color: #84878b;
+}
+
+.home-one .tabs{
 	background-color: #0f2030!important;
 }
 
-
 /*tabs icons*/
-.icon-home{
+.home-one .icon-home{
 	width: 30px;
 	height: 32px!important;
 	display: inline-block;
@@ -46,7 +89,7 @@
 	background-size: 88% 85%;
 }
 
-.icon-home-outline{
+.home-one .icon-home-outline{
 	width: 30px;
 	height: 32px!important;
 	display: inline-block;
@@ -54,14 +97,14 @@
 	background-size: 88% 85%;
 }
 
-.icon-classify{
+.home-one .icon-classify{
 	width: 30px;
 	height: 32px!important;
 	display: inline-block;
 	background: url(../../assets/icons/home_sy_icon_6_pre@2x.png) no-repeat center center;
 	background-size: 88% 85%;
 }
-.icon-classify-outline{
+.home-one .icon-classify-outline{
 	width:30px;
 	height: 32px!important;
 	display: inline-block;
@@ -69,42 +112,42 @@
 	background-size: 88% 85%;
 }
 
-.icon-find{
+.home-one .icon-find{
 	width:30px;
 	height: 32px!important;
 	display: inline-block;
 	background: url(../../assets/icons/home_sy_icon_7_pre@2x.png) no-repeat center center;
 	background-size: 88% 85%;
 }
-.icon-find-outline{
+.home-one .icon-find-outline{
 	width:30px;
 	height: 32px!important;
 	display: inline-block;
 	background: url(../../assets/icons/home_fx_icon_7@2x.png) no-repeat center center;
 	background-size: 88% 85%;
 }
-.icon-cart{
+.home-one .icon-cart{
 	width:30px;
 	height: 32px!important;
 	display: inline-block;
 	background: url(../../assets/icons/home_sy_icon_8_pre@2x.png) no-repeat center center;
 	background-size: 88% 85%;
 }
-.icon-cart-outline{
+.home-one .icon-cart-outline{
 	width:30px;
 	height: 32px!important;
 	display: inline-block;
 	background: url(../../assets/icons/home_gec_icon_8@2x.png) no-repeat center center;
 	background-size: 88% 85%;
 }
-.icon-my{
+.home-one .icon-my{
 	width:30px;
 	height: 32px!important;
 	display: inline-block;
 	background: url(../../assets/icons/home_sy_icon_9_pre@2x.png) no-repeat center center;
 	background-size: 88% 85%;
 }
-.icon-my-outline{
+.home-one .icon-my-outline{
 	width:30px;
 	height: 32px!important;
 	display: inline-block;
@@ -112,3 +155,29 @@
 	background-size: 88% 85%;
 }
 /*tabs icons end*/
+
+
+/*发现 s*/
+.home-one .fx_nav{
+	padding: 15px;
+	margin-top: 64px;
+	height: 30px;
+}
+.home-one .fx_nav>span{
+	margin: 0 15px;
+	padding: 0px 0 5px;
+	width:calc(25% - 30px);
+	color: #515151;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+}
+.home-one .fx_nav>span:first-child{
+	color: #e79205;
+	border-bottom: 3px solid #e79205;
+}
+/*发现 e*/
+
+.home-one .heigth-auto{
+	overflow-y: auto;
+}

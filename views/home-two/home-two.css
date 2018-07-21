@@ -1,0 +1,49 @@
+/*预设样式*/
+.auto-img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.fff{
+	color: #fff!important;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearflow{
+	overflow: hidden;
+}
+.clearfix{
+	clear: both;
+}
+.trans{
+	background-color: transparent!important;
+}
+
+/*预设样式*/
+
+
+.home-two .system1{
+	top:0px;
+	background-color: #0f2030;
+}
+.home-two .system{
+	height: 20px;
+	background-color: #011120!important;
+}
+.home-two .titleipt{
+	width: 180px;
+	height: 30px;
+	background-color: #0f2030;
+	outline:none;
+	border:1px solid #fff;
+	padding: 6px;
+	color: #fff;
+	border-radius: 5px;
+}
+.home-two .titleipt::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: #fff!important;
+　}

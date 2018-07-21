@@ -1,0 +1,72 @@
+/*预设样式*/
+.auto-img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.fff{
+	color: #fff!important;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearflow{
+	overflow: hidden;
+}
+.clearfix{
+	clear: both;
+}
+.trans{
+	background-color: transparent!important;
+}
+
+/*预设样式*/
+
+
+.home-three .system1{
+	top:0px;
+	background-color: #0f2030;
+}
+.home-three .system{
+	height: 20px;
+	background-color: #011120!important;
+}
+.home-three .titleipt{
+	width: 180px;
+	height: 30px;
+	background-color: #0f2030;
+	outline:none;
+	border:1px solid #fff;
+	padding: 6px;
+	color: #fff;
+	border-radius: 5px;
+}
+.home-three .titleipt::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: #fff!important;
+　}
+/*发现 s*/
+.home-three .fx_nav{
+	padding:55px 15px;
+	height: 30px;
+}
+.home-three .fx_nav>span{
+	margin: 0 15px;
+	padding: 0px 0 5px;
+	width:calc(25% - 30px);
+	color: #515151;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+}
+.home-three .fx_nav>span:first-child{
+	color: #e79205;
+	border-bottom: 3px solid #e79205;
+}
+/*发现 e*/
+
+.home-three .heigth-auto{
+	overflow-y: auto;
+}

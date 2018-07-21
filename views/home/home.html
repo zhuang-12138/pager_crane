@@ -1,78 +1,20 @@
 <div class="home">
-
-	<!-- 首页 -->
-	<ion-tabs class="tabs-positive tabs-icon-top">
-
-		<ion-tab title="首页" icon-on="icon-home" icon-off="icon-home-outline">
-			<div class="system"></div>
+	<ion-content class="sts">
+		<div ui-view></div>
+	</ion-content>
 		
-			<div class="bar bar-header system1">
-				<button class="button button-icon icon ion-ios-search-strong fff"></button>
-				<div class="h1 title"><input class="titleipt" type="" name="" placeholder="想买什么？"></div>
-				<button class="button button-icon icon ion-android-chat fff"></button>
-			</div>
-			<!-- banner s -->
-			<div class="home_banner"><img class="auto-img" src="./assets/images/home/banner_1@2x.png"></div>
-			<!-- banner end -->
 
+	<ion-tabs class="tabs-positive tabs-icon-top">
+		<ion-tab ui-sref="home.home-one" title="首页" icon-on="icon-home" icon-off="icon-home-outline"></ion-tab>
+	
+		<ion-tab ui-sref="home.home-two" title="分类" icon-on="icon-classify" icon-off="icon-classify-outline"></ion-tab>
 
-		<!-- TODO 下面应该添加第三方路由 -->
-		<!-- TODO 下面的图片路径应动态获取 -->
-			<!-- home-nav 一级路由 s -->
-			<div class="home_bgc">
-				<span class="home_nav"><img class="auto-img" src="./assets/icons/home_qczq_icon_1@2x.png">清仓专区</span>
-				<span class="home_nav"><img class="auto-img" src="./assets/icons/home_xpss_icon_2@2x.png">新品上市</span>
-				<span class="home_nav"><img class="auto-img" src="./assets/icons/home_zydp_icon_3@2x.png">着衣搭配</span>
-				<span class="home_nav"><img class="auto-img" src="./assets/icons/home_mxtk_icon_1@2x.png">明星同款</span>
-			</div>
-			<!-- home-nav 一级路由 end -->
+		<ion-tab ui-sref="home.home-three" title="发现" icon-on="icon-find" icon-off="icon-find-outline"></ion-tab>
 
-			
-		</ion-tab>
-		<!-- 首页 end -->
-
-
-		<!-- 分类 s -->
-		<ion-tab title="分类" icon-on="icon-classify" icon-off="icon-classify-outline">
-			
-			<div class="system"></div>
-				<div class="bar bar-header system1">
-				<button class="button button-icon icon ion-ios-search-strong fff"></button>
-				<div class="h1 title"><input class="titleipt" type="" name="" placeholder="想买什么？"></div>
-				<button class="button button-icon icon ion-android-chat fff"></button>
-			</div>
-			
-		</ion-tab>
-		<!-- 分类 end -->
-
-
-		<!-- 发现 s -->
-		<ion-tab title="发现" icon-on="icon-find" icon-off="icon-find-outline">
-
-				<div class="system"></div>
-				<div class="bar bar-header system1">
-				<button class="button button-icon icon ion-ios-search-strong fff"></button>
-				<div class="h1 title"><input class="titleipt" type="" name="" placeholder="想买什么？"></div>
-				<button class="button button-icon icon ion-android-chat fff"></button>
-			</div>
-
-			<div class="fx_nav">
-				<span>精选</span>
-				<span>好物</span>
-				<span>搭配</span>
-				<span>时装</span>
-			</div>
-		</ion-tab>
-		<!-- 发现 end -->
-
-		<!-- 购物车 s -->
 		<ion-tab title="购物车" icon-on="icon-cart" icon-off="icon-cart-outline"></ion-tab>
-		<!-- 购物车 e -->
+		
+		<ion-tab title="我的" icon-on="icon-my" icon-off="icon-my-outline"></ion-tab>
 
-		<!-- 我的 s -->
-		<ion-tab title="我的" icon-on="icon-my" icon-off="icon-my-outline"></ion-tab></ion-tab>
-		<!-- 我的 end -->
-
-</ion-tabs>
+	</ion-tabs>
 	<!-- 底部栏 end -->
 </div>

@@ -21,5 +21,26 @@ angular.module('app')
 			'./views/home/homeController.js',
 			'./views/home/home.css'
 		]
+	},
+	{
+		name: 'home-one',
+		files: [
+			'./views/home-one/homeoneController.js',
+			'./views/home-one/home-one.css'
+		]
+	},
+	{
+		name: 'home-two',
+		files: [
+			'./views/home-two/hometwoController.js',
+			'./views/home-two/home-two.css'
+		]
+	},
+	{
+		name: 'home-three',
+		files: [
+			'./views/home-three/homethreeController.js',
+			'./views/home-three/home-three.css'
+		]
 	}
 ])
