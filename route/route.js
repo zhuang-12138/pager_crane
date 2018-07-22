@@ -48,7 +48,7 @@ angular.module('app')
 				// home页面的路径
 				templateUrl: './views/home/home.html',
 				// home的控制器名称
-				controller: 'homeController',
+				// controller: 'homeController',
 
 				// 
 				resolve: {
@@ -70,6 +70,50 @@ angular.module('app')
 						return $ocLazyLoad.load('home-one');
 					}]
 				}
+			})
+			.state('home.home-one.qingcangzq',{
+				url:'/qingcangzq',
+				// abstract:true,
+				templateUrl:'./views/qingcangzq/qingcangzq.html',
+				// resolve: {
+				// 	des: ['$ocLazyLoad', function ($ocLazyLoad) {
+				// 		// 懒加载的服务名称
+				// 		return $ocLazyLoad.load('qingcangzq');
+				// 	}]
+				// }
+			})
+			.state('home.home-one.mingxingtk',{
+				url:'/mingxingtk',
+				// abstract:true,
+				templateUrl:'./views/mingxingtk/mingxingtk.html',
+				// resolve: {
+				// 	des: ['$ocLazyLoad', function ($ocLazyLoad) {
+				// 		// 懒加载的服务名称
+				// 		return $ocLazyLoad.load('qingcangzq');
+				// 	}]
+				// }
+			})
+			.state('home.home-one.zhuoyidp',{
+				url:'/zhuoyidp',
+				// abstract:true,
+				templateUrl:'./views/zhuoyidp/zhuoyidp.html',
+				// resolve: {
+				// 	des: ['$ocLazyLoad', function ($ocLazyLoad) {
+				// 		// 懒加载的服务名称
+				// 		return $ocLazyLoad.load('qingcangzq');
+				// 	}]
+				// }
+			})
+			.state('home.home-one.xingpingss',{
+				url:'/xingpingss',
+				// abstract:true,
+				templateUrl:'./views/xingpingss/xingpingss.html',
+				// resolve: {
+				// 	des: ['$ocLazyLoad', function ($ocLazyLoad) {
+				// 		// 懒加载的服务名称
+				// 		return $ocLazyLoad.load('qingcangzq');
+				// 	}]
+				// }
 			})
 
 			.state('home.home-two',{

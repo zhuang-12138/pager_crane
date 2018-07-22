@@ -3,6 +3,7 @@ angular.module('app')
 
 // 跳转的是路由的状态名称，不是路径（状态机）
 		$scope.goPage = function (url) {
+			console.log(url);
 			$state.go(url);
 		}
 
